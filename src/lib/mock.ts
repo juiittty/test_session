@@ -20,11 +20,11 @@ export type InvitationResponse = {
 };
 
 export const mockInvitation: Invitation = {
-  id: "3f8a2c1e-9b4d-4e7a-a5c6-1d2e3f4a5b6c",
-  title: "허들링 클럽 2번째\n오프라인 밋업",
-  event_at: "2026-11-14T09:00:00+09:00",
-  place: "세종 남극 기지",
-  body: "추운 겨울, 다 같이 모여 온기를 나눠요.\n편한 옷차림으로 와주세요!",
+  id: "demo", // 화면 확인용 고정 ID. 실제 초대장 ID는 추측할 수 없는 무작위 값으로 만든다
+  title: "뜐 땀흘리는\n헬스클럽 연말파티",
+  event_at: "2026-12-25T18:00:00+09:00",
+  place: "최경준 집",
+  body: "오로지 김명주님만 초대해요.\n마싯고 즐거운 홈팟티!",
   created_at: "2026-10-18T10:00:00+09:00",
 };
 
